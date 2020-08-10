@@ -61,6 +61,7 @@ body {
     height: 100%;
     border-radius: 50%;
     background:
+    /* Just clouds */
     radial-gradient(circle at 34% 12%, var(--cloud-color) 10px, transparent 8px),
     radial-gradient(circle at 32% 12%, var(--cloud-color) 10px, transparent 8px),
     radial-gradient(circle at 30% 12%, var(--cloud-color) 10px, transparent 8px),
@@ -146,6 +147,7 @@ body {
     height: 350px;
     border-radius: 50%;
     background:
+    /* Poles and blue glow */
     radial-gradient(circle at 100% -67%, white 300px, transparent 8px),
     radial-gradient(circle at 75% -67%, white 300px, transparent 8px),
     radial-gradient(circle at 50% -67%, white 300px, transparent 8px),
@@ -157,8 +159,8 @@ body {
     radial-gradient(circle at 50% 154%, white 250px, transparent 8px),
     radial-gradient(circle at 25% 154%, white 250px, transparent 8px),
     radial-gradient(circle at 0% 154%, white 250px, transparent 8px),
-    /* linear-gradient(rgb(0, 183, 255) 65px, transparent 80px), */
     linear-gradient(transparent, transparent 76%, rgb(0, 183, 255) 84%),
+    /* All the land */
     radial-gradient(circle at 26% 34%, var(--terrain-color) 14px, transparent 12px),
     radial-gradient(circle at 24% 34%, var(--terrain-color) 14px, transparent 12px),
     radial-gradient(circle at 22% 34%, var(--terrain-color) 14px, transparent 12px),
@@ -233,6 +235,7 @@ body {
     left: 0;
     z-index: -1;
     background:
+    /* All stars */
     radial-gradient(circle at 10% 12%, var(--star-color) 4px, transparent 3px),
     radial-gradient(circle at 35% 14%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 45% 10%, var(--star-color) 2px, transparent 3px),
@@ -252,7 +255,6 @@ body {
     radial-gradient(circle at 24% 72%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 21% 65%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 21% 55%, var(--star-color) 2px, transparent 3px),
-    
 
     radial-gradient(circle at 15% 80%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 14% 15%, var(--star-color) 6px, transparent 3px),
@@ -263,7 +265,6 @@ body {
     radial-gradient(circle at 22% 45%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 82% 24%, var(--star-color) 4px, transparent 3px),
     radial-gradient(circle at 32% 14%, var(--star-color) 2px, transparent 3px),
-
 
     radial-gradient(circle at 90% 88%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 75% 84%, var(--star-color) 2px, transparent 3px),
@@ -344,7 +345,7 @@ body {
     background-size: 100%;
 }
 
-
+/* Animations */
 @keyframes grow{
     from {transform: scale(1);}
     to {transform: scale(1.05 );}

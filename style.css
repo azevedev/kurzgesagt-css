@@ -284,6 +284,7 @@ body {
     radial-gradient(circle at 90% 50%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 95% 51%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 97% 38%, var(--star-color) 4px, transparent 3px),
+    
     radial-gradient(circle at 92% 70%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 99% 74%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 97% 90%, var(--star-color) 4px, transparent 3px),
@@ -305,9 +306,42 @@ body {
     radial-gradient(circle at 15% 50%, var(--star-color) 6px, transparent 3px),
     radial-gradient(circle at 12% 40%, var(--star-color) 2px, transparent 3px),
     radial-gradient(circle at 10% 45%, var(--star-color) 2px, transparent 3px),
-    radial-gradient(circle at 84% 32%, var(--star-color) 4px, transparent 3px);
+
+    radial-gradient(circle at 30% 45%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 31% 47%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 35% 37%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 39% 39%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 32% 44%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 38% 47%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 35% 63%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 28% 54%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 29% 58%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 26% 60%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 30% 66%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 28% 70%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 33% 65%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 35% 54%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 35% 74%, var(--star-color) 6px, transparent 3px),
+    radial-gradient(circle at 84% 32%, var(--star-color) 4px, transparent 3px),
+
+    radial-gradient(circle at 80% 28%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 72% 32%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 75% 35%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 78% 40%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 77% 44%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 77% 49%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 73% 50%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 74% 58%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 80% 52%, var(--star-color) 6px, transparent 3px),
+    radial-gradient(circle at 75% 62%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 75% 72%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 85% 73%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 84% 77%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 80% 74%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 81% 64%, var(--star-color) 2px, transparent 3px),
+    radial-gradient(circle at 84% 66%, var(--star-color) 4px, transparent 3px),
+    radial-gradient(circle at 80% 45%, var(--star-color) 2px, transparent 3px);
     background-size: 100%;
-    /* animation: rotate 20s infinite linear; */
 }
 
 
@@ -329,9 +363,4 @@ body {
 @keyframes terrains{
     from {background-position: 0px;}
     to {background-position: 350px;}
-}
-
-@keyframes rotate{
-    from {transform: rotate(360deg);}
-    to {transform: rotate(0deg);}
 }
